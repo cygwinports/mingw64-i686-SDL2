@@ -12,6 +12,7 @@ and 2D framebuffer across multiple platforms."
 HOMEPAGE="http://www.libsdl.org/"
 SRC_URI="http://www.libsdl.org/release/SDL2-${VERSION}.tar.gz"
 SRC_DIR="SDL2-${VERSION}"
+PATCH_URI="2.0.1-static-libgcc.patch"
 
 DIFF_EXCLUDES="SDL_config.h"
 
